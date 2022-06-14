@@ -1,8 +1,10 @@
 import '../App.css';
+import Nav from '../components/nav.component'
 
-function App() {
+function Home() {
     return (
-        <div className="App">
+        <div className="Home">
+            <Nav/>
             <header className="App-header">
                 {/*<img src={logo} className="App-logo" alt="logo" />*/}
                 <p>
@@ -21,4 +23,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;

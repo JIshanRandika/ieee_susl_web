@@ -1,11 +1,14 @@
 import '../App.css';
 import Nav from '../components/nav.component'
+import Carousel from '../components/homeCarousel.component'
 
 function Home() {
     return (
         <div className="Home">
             <Nav/>
+            <Carousel/>
             <header className="App-header">
+
                 {/*<img src={logo} className="App-logo" alt="logo" />*/}
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
